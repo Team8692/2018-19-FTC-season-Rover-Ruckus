@@ -1,4 +1,5 @@
-package org.firstinspires.ftc.teamcode.SAFE;
+package org.firstinspires.ftc.teamcode;
+
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -9,7 +10,7 @@ import org.firstinspires.ftc.robotcore.internal.opmode.OpModeManagerImpl;
 import org.firstinspires.ftc.robotcore.internal.system.AppUtil;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
-public class Robot extends LinearOpMode {
+public class Robo extends LinearOpMode {
     public DcMotor left;
     public DcMotor right;
     public DcMotor leftb;
@@ -34,7 +35,7 @@ public class Robot extends LinearOpMode {
         rightb = hardwareMap.get(DcMotor.class, "rightb");
         lift2 = hardwareMap.get(DcMotor.class, "lift2");
         lift = hardwareMap.get(DcMotor.class, "lift");
-     //   intake = hardwareMap.get(DcMotor.class, "intake");
+        //   intake = hardwareMap.get(DcMotor.class, "intake");
         dump = hardwareMap.get(Servo.class, "dump");
         hook = hardwareMap.get(Servo.class, "hook");
 
@@ -44,7 +45,7 @@ public class Robot extends LinearOpMode {
         rightb.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         lift2.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         lift.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-      //  intake.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
+        //  intake.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
 
         left.setDirection(DcMotor.Direction.FORWARD);
         leftb.setDirection(DcMotor.Direction.REVERSE);
@@ -52,7 +53,7 @@ public class Robot extends LinearOpMode {
         rightb.setDirection(DcMotor.Direction.REVERSE);
         lift2.setDirection(DcMotor.Direction.REVERSE);
         lift.setDirection(DcMotor.Direction.REVERSE);
-       // intake.setDirection(DcMotor.Direction.REVERSE);
+        // intake.setDirection(DcMotor.Direction.REVERSE);
     }
 //    static final double COUNTS_PER_MOTOR_REV = 537.6;
 //    static final double COUNTS_PER_MOTOR_REVBACK = 1680;

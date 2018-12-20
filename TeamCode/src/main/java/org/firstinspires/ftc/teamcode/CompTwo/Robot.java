@@ -7,7 +7,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
-public class Robot extends LinearOpMode {
+ public class Robot extends LinearOpMode {
     public DcMotor left;
     public DcMotor right;
     public DcMotor leftb;

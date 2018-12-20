@@ -1,10 +1,13 @@
-package org.firstinspires.ftc.teamcode.SAFE;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
+import org.firstinspires.ftc.teamcode.RentonCV;
+import org.firstinspires.ftc.teamcode.Robo;
+
 @Autonomous(name = "Emergency Depot Only!!")
-public class test extends Robot {
+public class test extends Robo {
     RentonCV vision = new RentonCV();
     int goldp = 0;
     @Override

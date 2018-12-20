@@ -39,7 +39,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 
-public class RobotAuto extends Robot {
+public class RobotAuto extends Robot{
     static final double COUNTS_PER_MOTOR_REV = 1680;
     static final double DRIVE_GEAR_REDUCTION = 1.0;
     static final double WHEEL_DIAMETER_INCHES = 4.0;

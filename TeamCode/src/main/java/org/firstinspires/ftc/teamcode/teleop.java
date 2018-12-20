@@ -1,12 +1,14 @@
-package org.firstinspires.ftc.teamcode.SAFE;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.Range;
 
+import org.firstinspires.ftc.teamcode.Robo;
+
 @TeleOp(name = "Tank TELEOP")
 @Disabled
-public class teleop extends Robot {
+public class teleop extends Robo {
     boolean mecanum = false;
 
     @Override public void runOpMode() throws InterruptedException {

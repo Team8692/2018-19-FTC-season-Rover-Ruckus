@@ -1,12 +1,13 @@
-package org.firstinspires.ftc.teamcode.SAFE;
+package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.robot.Robot;
 import com.qualcomm.robotcore.util.Range;
 
 @Autonomous(name = "Full Auto")
-public class FullAuto extends Robot {
+public class FullAuto extends Robo {
 
     RentonCV vision = new RentonCV();
     static int goldLoc = 0;
